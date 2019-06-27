@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>e-Emargement</title>
+		<link rel="stylesheet" href="{{url_for ('static', filename='login.css' )}}">
+	</head>
+	<body>
+		<form action="accueil.html" method="POST">
+			<div class="login">
+				<div class="login-screen">
+					<div class="app-title">
+						<h1>e-Emargement</h1>
+					</div>
+					<div class="login-form">
+						<div class="control-group">
+							<input type="text" class="login-field" value="" placeholder="Nom d'utilisateur" name="username">
+							<label class="login-field-icon fui-user" for="login-name"></label>
+						</div>
+						<div class="control-group">
+							<input type="password" class="login-field" value="" placeholder="Mot de passe" name="password">
+							<label class="login-field-icon fui-lock" for="login-pass"></label>
+						</div>
+						<input type="submit" value="connexion" class="btn btn-primary btn-large btn-block">
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
