@@ -49,7 +49,7 @@ while link_statut == 200:
 
 	req = requests.get(adresse)
 	link_statut = req.status_code
-	#print(nb_page, link_statut)
+	
 	if page == 300:
 		break
 
